@@ -50,6 +50,8 @@ body{
     /* box-shadow: 0 0 20px white; */
     text-shadow: 5px 5px 10px black;
     padding: 10px;
+    font-size:8rem;
+    text-align: center;
     /* opacity: 50%; */ 
 }
 
@@ -112,6 +114,7 @@ a:hover {
     justify-content: center;
 
     font-family: 'Courier New', Courier, monospace;
+    font-size: large
     /* text-align: center; */
 }
 
@@ -220,6 +223,18 @@ a:hover {
 
 @media screen and (max-width:600px) {
 
+    .name{
+        font-size: 3rem;
+    }
+
+    #SU{
+        font-size: smaller;
+    }
+
+    #about{
+        font-size: small;
+    }
+
     .navBar{
         font-size: small;
     }
@@ -247,7 +262,7 @@ a:hover {
     }
 
     .inside_music{
-        font-size: smaller;
+        font-size: 0.5rem;
     }
 
     .footer{
