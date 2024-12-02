@@ -18,10 +18,12 @@ body{
 .heading{
     text-align: center;
     text-decoration: underline;
+    /* color: lightgreen; */
 }
 
 .subHeading{
     text-decoration: underline;
+    color: lightgreen;
 }
 
 @media screen and (min-width:0px) and (max-width:720px){
@@ -36,6 +38,6 @@ ul > li::marker{
 }
 
 a{
-    color: rgb(253, 118, 118);
+    color: lightcoral;
     text-decoration: none;
 }
