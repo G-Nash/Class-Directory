@@ -272,6 +272,15 @@ a:hover {
     .footer{
         font-size: 0.6rem;
     }
+
+    body{
+        background-color: black;
+        background-image: none;
+    }
+
+    body, .about, .music, .music_collab, .titlePage, .acting{
+        background-attachment: scroll;
+    }
 }
 
 @media screen and (max-width:319px) {
@@ -320,6 +329,15 @@ a:hover {
 
     .footer{
         font-size: 0.5rem;
+    }
+
+    body{
+        background-color: black;
+        background-image: none;
+    }
+
+    body, .about, .music, .music_collab, .titlePage, .acting{
+        background-attachment: scroll;
     }
 }
 
