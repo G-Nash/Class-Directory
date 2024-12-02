@@ -15,6 +15,15 @@ body{
     padding: 20px;
 }
 
+.heading{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.subHeading{
+    text-decoration: underline;
+}
+
 @media screen and (min-width:0px) and (max-width:720px){
     .page{
         width: 80vw;
@@ -28,4 +37,5 @@ ul > li::marker{
 
 a{
     color: rgb(253, 118, 118);
+    text-decoration: none;
 }
