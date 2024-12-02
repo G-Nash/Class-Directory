@@ -274,3 +274,52 @@ a:hover {
     }
 }
 
+@media screen and (max-width:319px) {
+
+    .name{
+        font-size: 3rem;
+    }
+
+    #SU{
+        font-size: smaller;
+    }
+
+    #about{
+        font-size: small;
+    }
+
+    .navBar{
+        font-size: small;
+    }
+
+    .navBar > #navBar_R > a{
+        font-size: smaller;
+    }
+
+    .about_content{
+        width: 90%;
+        font-size:smaller;
+        margin-top: 20%;
+    }
+
+    .inside_music{
+        margin-top: 20%;
+    }
+
+    #single_soon_img{
+        height: 105px;
+    }
+
+    .music_title{
+        font-size: smaller;
+    }
+
+    .inside_music{
+        font-size: 0.5rem;
+    }
+
+    .footer{
+        font-size: smaller;
+    }
+}
+
